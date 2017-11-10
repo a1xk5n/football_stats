@@ -1,0 +1,25 @@
+.content-container {
+    padding: 30px 22px 0;
+}
+
+.header {
+    & h1 {
+        flex-grow: 0;
+        margin-right: 20px;
+    }
+    &__link {
+        padding: 24px 20px;
+        transition: background 0.3s ease;
+        &:hover {
+            background: #5565c7;
+        }
+        &--selected {
+            background: #5565c7;
+        }
+    }
+}
+
+.main-progress-bar {
+    position: fixed;
+    bottom: 8%;
+}

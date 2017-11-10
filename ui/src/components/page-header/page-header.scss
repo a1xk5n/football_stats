@@ -1,0 +1,22 @@
+.page-header {
+    margin-left: 20px;
+    &__title {
+        font-size: 38px;
+    }
+    &__leagues-dropdown-container {
+        display: inline-block;
+        position: relative;
+    }
+    &__leagues-dropdown {
+        width: 500px;
+        margin: 15px 0;
+        border: 1px solid blue;
+        border-radius: 4px;
+        & > div {
+            padding: 2px 0 2px 10px;
+        }
+        & li:first-child {
+            border-radius: 5px 5px 0 0;
+        }
+    }
+}

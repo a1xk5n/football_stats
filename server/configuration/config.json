@@ -1,0 +1,11 @@
+{
+  "port": "1338",
+  "mongooseUri": "mongodb://alex:1599278@ds127065.mlab.com:27065/football-stat-db",
+  "apiPrefix": "/api",
+  "twitterConfig": {
+    "consumer_key": "U9SCsV2osqt5Zcz3Gnv1Ww03A",
+    "consumer_secret": "cQgDngQIRyelvY7wSzc2YMmE87aoYlW4keVnEGTWQhTclX7GbN",
+    "access_token_key": "836199833547452416-obSHAwaVtlNhY0QGqe7yzUtmp4rikdq",
+    "access_token_secret": "NoWNLBnJlNGQ0rwIwkZ2OotvuZ8g9FYaouLFEpycQzgeU"
+  }
+}

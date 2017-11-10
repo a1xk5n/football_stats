@@ -1,0 +1,31 @@
+.pagination {
+    display: inline-block;
+    border: 1px solid #303f9f;
+    border-radius: 3px;
+    font-size: 20px;
+
+    &__item {
+        display: inline-block;
+        cursor: pointer;
+        user-select: none;
+        text-decoration: none;
+        padding: 10px 15px;
+        display: inline-block;
+        transition: background 0.3s ease;
+        &:not(:last-child) {
+            border-right: 1px solid #303f9f;
+        }
+        &.active {
+            background: #cdd4fb;
+        }
+        &.disabled {
+            &:hover {
+                background: none;
+                cursor: not-allowed;
+            }
+        }
+        &:hover {
+            background: #cdd4fb;
+        }
+    }
+}

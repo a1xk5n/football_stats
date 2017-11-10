@@ -1,0 +1,26 @@
+.last-game {
+    background: #303f9f;
+    border-radius: 4px;
+    color: white;
+    flex: 0 0 40%;
+    margin: 5px;
+    max-width: 250px;
+    font-size: 15px;
+    display: flex;
+    justify-content: space-between;
+    padding: 3px 5px;
+
+    &__score {
+        padding: 3px;
+        background: white;
+        color: #303f9f;
+        border-radius: 3px;
+        min-width: 35px;
+        text-align: center;
+        height: 23px;
+    }
+
+    &__date {
+        margin-top: 5px;
+    }
+}

@@ -1,0 +1,20 @@
+.current-team {
+    &__tabs {
+        display: inline-block;
+        margin-right: 20px;
+        padding: 10px 15px;
+        min-width: 170px;
+        text-align: center;
+        border-radius: 5px;
+        border: 1px solid black;
+        cursor: pointer;
+
+        &--active {
+            color: #303f9f;
+            border: 1px solid #303f9f;
+        }
+        &-container {
+            margin: 25px 0 25px;
+        }
+    }
+}

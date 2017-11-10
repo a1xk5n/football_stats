@@ -1,0 +1,30 @@
+.player {
+    border: 1px solid grey;
+    border-top: none;
+    padding: 10px 50px 10px 5px;
+    position: relative;
+    max-width: 288px;
+
+    &:first-child {
+        border-radius: 8px 8px 0 0;
+        border-top: 1px solid grey;
+    }
+    &:last-child {
+        border-radius: 0 0 8px 8px;
+    }
+
+    &__content-container {
+        float: left;
+    }
+
+    &__full-name {
+        font-size: 25px;
+        font-weight: bold;
+        margin-bottom: 20px;
+        display: inline-block;
+        color: #000;
+    }
+    &__date-of-birth {
+        font-size: 18px;
+    }
+}

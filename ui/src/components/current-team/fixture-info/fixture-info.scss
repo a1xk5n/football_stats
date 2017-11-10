@@ -1,0 +1,25 @@
+.fixture-info {
+    &-container {
+        display: inline-block;
+        border: 1px solid black;
+        border-radius: 6px;
+        min-width: 450px;
+        max-width: 600px;
+        vertical-align: text-top;
+    }
+    &__title {
+        font-weight: bold;
+        background: rgb(228, 223, 223);
+        padding: 5px 3px;
+        border-top-left-radius: 6px;
+        border-top-right-radius: 6px;
+    }
+    &__other-info {
+        padding: 7px 10px;
+    }
+
+    &__last-games {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}

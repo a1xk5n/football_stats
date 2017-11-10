@@ -1,0 +1,15 @@
+.fixtures-tab {
+    .date-picker {
+        display: inline-block;
+    }
+    .fixtures-list {
+        display: inline-block;
+        vertical-align: text-top;
+        margin-right: 30px;
+    }
+}
+.theme--day--349-w9t1 {
+    &:hover > span {
+        background: #536afc !important;
+    }
+}
